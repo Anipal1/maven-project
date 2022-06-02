@@ -10,4 +10,26 @@ properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKe
             }
         }
     }
+
+ stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+
+
+ stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+
+
+
+
 }
+
